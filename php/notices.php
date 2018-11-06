@@ -8,17 +8,6 @@
 	<p>If you're trying to access a site, you need to visit the host/domain given to the site if one was set.</p>
 	<p><a href="http://vvv.test" class="button">Visit the Dashboard</a></p>
 </div>
-
-<?php
-if ( ! file_exists('/vagrant/vvv-custom.yml') ) {
-	?>
-	<div id="vvv_custom_missing" class="top-notice-box box">
-		<p><strong>Super Important:</strong> You need to copy <code>vvv-config.yml</code> to <code>vvv-custom.yml</code> or your changes will be destroyed when you update!</p>
-	</div>
-	<?php
-}
-?>
-
 <script>
 // If it's not vvv.test then this site has failed to provision, let the user know
 // also notify if the dashboard is being shown on the raw IP

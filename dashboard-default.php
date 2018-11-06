@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Varying Vagrant Vagrants Dashboard</title>
+		<title>Valet Dashboard</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" type="text/css" href="//vvv.test/dashboard/style.css?t=<?php echo intval( filemtime( __DIR__.'/style.css' ) ); ?>">
 	</head>
 	<body>
 		<h2 id="vvv_logo">
-			<img src="//vvv.test/dashboard/vvv-tight.png"/> Varying Vagrant Vagrants
+			<img src="//vvv.test/dashboard/vvv-tight.png"/> Valet
 		</h2>
 		<?php
 		require_once( __DIR__ . '/php/notices.php' );
